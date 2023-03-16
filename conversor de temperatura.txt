@@ -1,0 +1,3 @@
+tempc = float(input('Digite a temperatura em °C: '))
+tempf = (tempc * 9/5) + 32
+print('A temperatura digita em Fahrenheit é : {}°F '.format(tempf))

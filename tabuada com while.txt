@@ -1,0 +1,9 @@
+while True:
+    
+    num = int(input('Digite um inteiro: '))
+    print(20*'-')
+    print('A tabuada de {} é:'.format(num))
+
+    for i in range(1,11):
+        print('{} x {} = {}'.format(i, num, i*num))
+    print(20*'-')  
